@@ -15,6 +15,7 @@ RUN set -ex \
 		postgresql-libs \
 	&& apk add --no-cache --virtual .build-deps \
 		openssl \
+		openssh-client \
 		gcc \
 		postgresql \
 		postgresql-dev \
